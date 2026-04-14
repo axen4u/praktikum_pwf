@@ -18,6 +18,16 @@
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                         {{ __('About') }}
                     </x-nav-link>
+
+                    {{-- Menu Product: hanya tampil untuk admin (Gate manage-product) --}}
+                    @can('manage-product')
+                    <x-nav-link :href="route('products.index')" :active="request()->routeIs('products.*')">
+                        {{ __('Products') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('kategoris.index')" :active="request()->routeIs('kategoris.*')">
+                        {{ __('Kategori') }}
+                    </x-nav-link>
+                    @endcan
                 </div>
             </div>
 
@@ -76,6 +86,16 @@
             <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
                 {{ __('About') }}
             </x-responsive-nav-link>
+
+            {{-- Menu Product & Kategori: hanya tampil untuk admin --}}
+            @can('manage-product')
+            <x-responsive-nav-link :href="route('products.index')" :active="request()->routeIs('products.*')">
+                {{ __('Products') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('kategoris.index')" :active="request()->routeIs('kategoris.*')">
+                {{ __('Kategori') }}
+            </x-responsive-nav-link>
+            @endcan
         </div>
 
         <!-- Responsive Settings Options -->
