@@ -6,3 +6,11 @@
 <img width="557" height="214" alt="Screenshot 2026-03-07 082003" src="https://github.com/user-attachments/assets/8d80fa70-175a-42b3-b388-7a332f3db27c" />
 <img width="361" height="192" alt="Screenshot 2026-03-07 081842" src="https://github.com/user-attachments/assets/9dcc84ee-eeb3-4ea3-a150-29a2c3b73bb2" />
 <img width="350" height="136" alt="Screenshot 2026-03-07 081826" src="https://github.com/user-attachments/assets/78749876-8bab-4df6-8b77-1acdd571ef25" />
+
+# Pertemuan 6: Validasi, Otorisasi (Gate & Policy), dan Form Request
+
+**Hasil Screenshot Validasi Store & Update Kategori dan Produk:**
+
+*(Silakan drag and drop hasil screenshot Anda di bawah ini melalui web GitHub)*
+<!-- Tempatkan screenshot di sini -->
+
